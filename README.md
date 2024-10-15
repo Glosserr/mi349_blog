@@ -1,2 +1,2 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+# Coding&Carnivores
+A Blog site for my MI 349 class!
