@@ -17,23 +17,24 @@
       </ul>
     </nav>
     <main>
-      <h2>Contact Us</h2>
+      <h2>Contact Me!</h2>
       <section></section>
       <form>
-        <label>Contact me!</label><br>
-        <label>Name:</label><br>
-        <input type="text"><br>
-        <label>Email Address:</label><br>
-        <input type="email"><br>
-        <label>Reason For Contact:</label><br>
-        <select name="dropdown" id="dropdown">
-          <option value="option1">Wanted to Say Hi!</option>
-          <option value="option2">Looking for Some Extra Info On...</option>
-          <option value="option3">More About You/Your Blog?</option>
+        <h3>Contact Information</h3>
+        <label for="text">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="reason">Reason For Contact:</label><br>
+        <select name="reason" id="reason" required>
+          <option value="">Please choose an option</option>
+          <option value="greet">Wanted to Say Hi!</option>
+          <option value="look">Looking for Some Extra Info On...</option>
+          <option value="more">More About You/Your Blog?</option>
         </select><br>
-        <label>Extra Comments:</label><br>
-        <input type="text"><br>
-        <button>Submit</button>
+        <label for="comments">Extra Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+        <button type="submit">Submit</button>
       </form>
       </section>
     </main>
