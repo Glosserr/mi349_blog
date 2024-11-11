@@ -17,13 +17,15 @@
       </ul>
     </nav>
     <main>
-      <article>
-      <h3>Contact Information</h3>
       <form>
         <label for="text">Name:</label>
         <input type="text" id="name" name="name" required>
+      </form>
+      <form>
         <label for="email">Email Address:</label>
         <input type="email" id="email" name="email" required>
+      </form>
+      <form>
         <label for="reason">Reason For Contact:</label>
         <select name="reason" id="reason" required>
           <option value="">Please choose an option</option>
@@ -31,11 +33,14 @@
           <option value="look">Looking for Some Extra Info On...</option>
           <option value="more">More About You/Your Blog?</option>
         </select>
+      </form>
+      <form>
         <label for="comments">Extra Comments:</label>
         <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      </form>
+      <form>
         <button type="submit">Submit</button>
       </form>
-      </article>
     </main>
     <script src="index.js"></script>
   </body>
